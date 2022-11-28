@@ -13,6 +13,7 @@ const marca = new Schema({
 
 const fragance = new Schema({
     name: { type: String, required: true},
+    description: { type: String, required: true},
     price: { type: Number, required: true },
     createdDate: { type: Date, default: Date.now },
     genero: { type: String, required: true},
